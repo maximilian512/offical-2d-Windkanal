@@ -59,7 +59,7 @@ if "sim" not in st.session_state or reset_button:
 
 
 
-@st.fragment(run_every=0.1)
+@st.fragment(run_every=0.3)
 def simulation_laufen():
     sim = st.session_state.sim
 
